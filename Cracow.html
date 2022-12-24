@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #256fb4;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: rgb(137, 204, 235);
+  width: 100%;
+  padding: 20px;
+}
+.footer {
+  padding: 20px; /* Some padding */
+  text-align: center; /* Center text*/
+  background: #ddd; /* Grey background */
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="header">
+  <h1>My city - Cracow</h1>
+  <p>The best city in the world.</p>
+</div>
+
+<div class="navbar">
+  <a href="Top 3.html">Top 3</a>
+  <a href="Kids in Cracow.html">Kids in Cracow</a>
+  <a href="form.html">Your impressions</a>
+ 
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+ 
+	<img src="SKMBT_C25321011218010.jpg" style="height:200px;">
+    <p>I'm a city guide and an art historian.</p>
+    <h3>My interests</h3>
+    <p>Architecture, Art, Anthropology, Hidden secrets of the city of Cracow :) </p>
+    
+    
+    
+  </div>
+  <div class="main">
+    <h2>CRACOW</h2>
+     <img src="Krakow image.jpg" style="height:200px;">
+    <p>Come and explore</p>
+    <p>According to official statistics, in 2019 Kraków was visited by over 14 million tourists including 3.3 million foreign travellers. The visitors spent over 7.5 billion zlotys (ca. €1.7 billion) in the city (without travel costs and pre-booked accommodation). Most foreign tourists came from Germany (14.2%), United Kingdom (13.9%), Italy (11.5%), France (11.2%), Spain (10.4%) and Ukraine (5.4%).[213] The Kraków tour-guide from the Lesser Poland Visitors Bureau indicated that not all statistics are recorded due to the considerable number of those who come, staying in readily available private rooms paid for by cash, especially from Eastern Europe.[214]
+
+        The main reasons for visiting the city are: its historical monuments, recreation as well as relatives and friends (placing third in the ranking), religion and business. There are 120 quality hotels in Kraków (usually about half full) offering 15,485 overnight accommodations.[215] The average stay last for about 4 to 7 nights. The survey conducted among the travelers showed that they enjoyed the city's friendliness most, with 90% of Polish tourists and 87% foreigners stating that they would recommend visiting it.[214] Notable points of interest outside the city include the Wieliczka salt mine, the Tatra Mountains 100 km (62 mi) to the south, the historic city of Częstochowa (north-west), the well-preserved former Nazi concentration camp at Auschwitz, and Ojcowski National Park,[216] which includes the Renaissance Castle at Pieskowa Skała.[217] Kraków has been awarded a number of top international rankings such as the 1st place in the Top city-break destinations 2014 survey conducted by the British consumer association. [source: Wikipedia] </p>
+    <br>
+    <h2>SOME HISTORY</h2>
+    <img src="cosmographia_universalis.jpeg" style="height:200px;">
+    <p>Once upon a time...</p>
+    <p>The earliest known settlement on the present site of Kraków was established on Wawel Hill, and dates back to the 4th century. Legend attributes the town's establishment to the mythical ruler Krakus, who built it above a cave occupied by a ravenous dragon, Smok Wawelski. [source: https://klaudiaandjonas.wordpress.com/magical-krakow/]  </p>
+  </div>
+</div>
+<div class="footer">
+    <h2>Copyright Halszka Tekieli 2022-2023</h2>
+  </div>
+</body>
+</html>
+
+  

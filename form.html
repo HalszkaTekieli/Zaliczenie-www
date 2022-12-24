@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #256fb4;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: rgb(137, 204, 235);
+  width: 100%;
+  padding: 20px;
+}
+.footer {
+  padding: 20px; /* Some padding */
+  text-align: center; /* Center text*/
+  background: #ddd; /* Grey background */
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="header">
+  <h1>My city - Cracow</h1>
+  <p>The best city in the world.</p>
+</div>
+
+<div class="navbar">
+  <a href="Cracow.html">Cracow</a>
+  <a href="Top 3.html">Top 3</a>
+  <a href="Kids in Cracow.html">Kids in Cracow</a>
+ 
+
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    
+     
+	<img src="SKMBT_C25321011218010.jpg" style="height:200px;">
+    <p>I'm a city guide and an art historian.</p>
+    <h3>My interests</h3>
+    <p>Architecture, Art, Anthropology, Hidden secrets of the city of Cracow :) </p>
+  </div>
+  <div class="main">
+    <h2>YOUR IMPRESSIONS</h2>
+	
+	
+  
+    <p>Please, answer some questions so we can learn from you and make the experience of spending time in Cracow even more interesting:</p>
+    
+    <br>
+    <form action="mailto:halszka.paszk@gmail.com" method="post" enctype="text/plain"><div>
+
+
+<p>Are you a male or a female:</p>
+<input type="radio" name="Sex" value="Woman">Woman
+<input type="radio" name="Sex" value="Male">Man
+
+<p>How old are you?</p>
+<input type="radio" name="Age" value="less than 15">less than 15<br>
+<input type="radio" name="Age" value="15-19">15-19<br>
+<input type="radio" name="Age" value="20-29">20-29<br>
+<input type="radio" name="Age" value="30-39">30-39<br>
+<input type="radio" name="Age" value="40-60">40-60<br>
+<input type="radio" name="Age" value="over 60">over 60
+
+<p>What was your best experience in  Cracow?</p>
+<input type="checkbox" name="Cracow" value="Wawel Castle">Wawel Castle<br>
+<input type="checkbox" name="Cracow" value="St. Mary's Basilica">St. Mary's Basilica<br>
+<input type="checkbox" name="Cracow" value="Clothall">Clothall<br>
+<input type="checkbox" name="Cracow" value="Second World War Museums">Second World War Museums<br>
+<input type="checkbox" name="Cracow" value="Art Galleries">Art Galleries<br>
+<input type="checkbox" name="Cracow" value="Else">Else (please, write in the comment what made you happy when spending time here):
+<input name="Cracow">
+
+
+
+
+
+<p>Leave a comment:</p>
+<textarea name="Comment" cols="50" rows="10">If you want, you can share your experience with us...</textarea>
+<br><br><br>
+
+<input type="submit" value="Send the form">
+
+<input type="reset" value="Clear">
+</div></form>
+  </div>
+</div>
+<div class="footer">
+    <h2>Copyright Halszka Tekieli 2022-2023</h2>
+</body>
+</html>
